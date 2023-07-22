@@ -25,11 +25,11 @@ describe("customer created event tests", () => {
     ).toMatchObject(eventHandler2);
 
 
-    const productCreatedEvent = new CustomerCreatedEvent({
+    const customerCreatedEvent = new CustomerCreatedEvent({
       id: "1",
     });
     
-    eventDispatcher.notify(productCreatedEvent);
+    eventDispatcher.notify(customerCreatedEvent);
 
     expect(spyEventHandler).toHaveBeenCalled();
     expect(spyEventHandler2).toHaveBeenCalled();
