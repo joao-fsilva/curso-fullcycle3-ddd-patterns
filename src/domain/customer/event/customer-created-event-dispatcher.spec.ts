@@ -1,6 +1,6 @@
 import EventDispatcher from "../../@shared/event/event-dispatcher";
 import CustomerCreatedEvent from "./customer-created.event";
-import SendConsoleLog1WhenCustomerIsCreatedHandler from "./handler/send-console-log-1-when-customer-is-created.handler copy";
+import SendConsoleLog1WhenCustomerIsCreatedHandler from "./handler/send-console-log-1-when-customer-is-created.handler";
 import SendConsoleLog2WhenCustomerIsCreatedHandler from "./handler/send-console-log-2-when-customer-is-created.handler";
 
 describe("customer created event tests", () => {
